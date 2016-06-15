@@ -9,6 +9,9 @@ name = "core"
 path = "lib.rs"
 test = false
 
+[features]
+disable_float = []
+
 [profile.dev]
 panic = "abort"
 
